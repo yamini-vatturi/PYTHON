@@ -1,0 +1,27 @@
+# cook your dish here
+arr=[1,"yamini",0.9,"yes"]
+arr.append("yamu")
+arr.remove(1)
+arr[3]="s"
+print(arr)
+print(type(arr))
+
+
+arr=(1,"yamini",0.9,"yes")
+print(arr)
+print(type(arr))
+
+
+set1={1,1,1,2,2,3,"yamu",True,2.5,2.0}
+print(set1)
+print(type(set1))
+
+dict1={
+    "yamini":9,
+    "anu":1,
+}
+print(dict1)
+print(type(dict1))
+
+set1={1,2}
+print(type(set1))
