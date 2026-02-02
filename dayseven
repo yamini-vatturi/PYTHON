@@ -1,0 +1,32 @@
+# # cook your dish here
+try:
+    number=int(input("Enter a number"))
+    print(1/number)
+except ZerodivisionError:
+    print("You cannot divide by zero")
+except ValueError:
+    print("enter only number")
+except Exception:
+    print("Something went wrong")
+finally:
+    print("Do some cleanup here")
+
+def addition():
+    print(a+b)
+    return a+b
+
+def subraction():
+    print(a-b)
+    return a-b
+
+def divition():
+    print(a/b)
+    return a/b
+
+def multiplication():
+    print(a*b)
+    return a*b
+
+a=1
+b=2
+print(addition(a+b))
